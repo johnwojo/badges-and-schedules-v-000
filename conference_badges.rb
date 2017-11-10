@@ -10,8 +10,10 @@ def batch_badge_creator(array)
 end
 
 
-def assign_rooms
-end
+def assign_rooms(name,array)
+Hello, _____! You'll be assigned to room _____!"
+return welcome
+wend
 
 
 def printer
