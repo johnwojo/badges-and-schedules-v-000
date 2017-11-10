@@ -12,7 +12,7 @@ end
 
 def assign_rooms(name,array)
 array.each do |room| "Hello, #{name}! You'll be assigned to array[room]!"
-wend
+end
 
 
 def printer
