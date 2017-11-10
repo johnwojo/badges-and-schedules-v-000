@@ -13,7 +13,7 @@ end
 def assign_rooms(array)
   counter = 0
   welcome = []
-  array.each {|name| welcome << "Hello, #{name}! You'll be assigned to room" + "#{name.index.}"}
+  array.each {|name| welcome << "Hello, #{name}! You'll be assigned to room #{name.index}" + }
   return welcome
   counter += 1
 end
