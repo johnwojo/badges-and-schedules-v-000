@@ -18,4 +18,6 @@ end
 
 
 def printer
+  return batch_badge_creator(array)
+  return assign_rooms(array)
 end
