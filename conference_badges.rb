@@ -12,7 +12,7 @@ end
 
 def assign_rooms(array)
   welcome = []
-  array.each {|room| welcome << "Hello, #{name}! You'll be assigned to #{array[room]}!"}
+  array.each {|name| welcome << "Hello, #{name}! You'll be assigned to #{array[room]}!"}
   return welcome
 end
 
