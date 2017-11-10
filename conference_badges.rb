@@ -18,4 +18,5 @@ end
 
 
 def printer
+  assign_rooms.each do |issue| puts issue
 end
